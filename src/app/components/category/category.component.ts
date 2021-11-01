@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./category.component.css']
 })
 export class CategoryComponent implements OnInit {
+  category1:any={ }
 
+  categories = []
   constructor() { }
 
   ngOnInit(): void {
